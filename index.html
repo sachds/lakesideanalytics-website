@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sachin Seth — Data Platform Architect & Analytics Product Builder</title>
+  <meta name="description" content="Data platform architect and analytics product builder known for deep work benchmarking Databricks and Snowflake compute and delivering high-performance data applications at scale.">
+  <style>
+    :root {
+      --bg: #fbfbfa;
+      --surface: #ffffff;
+      --text: #1c1c1e;
+      --muted: #5f5f66;
+      --faint: #6b6b72;
+      --accent: #1a5fb4;
+      --accent-hover: #154c90;
+      --border: #e6e6e3;
+      --badge-bg: #eef1f6;
+      --badge-text: #3a4a63;
+      --focus: #1a5fb4;
+      --measure: 68ch;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131316;
+        --surface: #1a1a1e;
+        --text: #ececf0;
+        --muted: #a6a6ad;
+        --faint: #84848c;
+        --accent: #7eb6ff;
+        --accent-hover: #a8cdff;
+        --border: #2c2c32;
+        --badge-bg: #23262e;
+        --badge-text: #b9c6dd;
+        --focus: #7eb6ff;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    .container {
+      max-width: var(--measure);
+      margin: 0 auto;
+      padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 5vw, 2.5rem) 4rem;
+    }
+
+    /* ---------- Header ---------- */
+    header {
+      margin-bottom: 3.25rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 2.75rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.6rem;
+      font-weight: 700;
+    }
+
+    .tagline {
+      font-size: clamp(1rem, 2.6vw, 1.15rem);
+      color: var(--muted);
+      font-weight: 500;
+      margin: 0 0 1.6rem;
+      letter-spacing: 0.01em;
+    }
+
+    .bio {
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      color: var(--text);
+      margin: 0;
+      max-width: 64ch;
+    }
+
+    /* ---------- Sections ---------- */
+    main { margin-top: 1rem; }
+
+    section {
+      margin-top: 3.25rem;
+    }
+
+    section:first-of-type { margin-top: 0; }
+
+    h2 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--faint);
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ---------- Articles ---------- */
+    article {
+      padding: 1.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    article:last-child { border-bottom: none; }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.55rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .year {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      color: var(--faint);
+    }
+
+    .role {
+      display: inline-block;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--badge-text);
+      background: var(--badge-bg);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.12rem 0.6rem;
+    }
+
+    h3 {
+      font-size: 1.18rem;
+      line-height: 1.35;
+      font-weight: 650;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.4rem;
+    }
+
+    h3 a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1.5px solid transparent;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    h3 a:hover {
+      color: var(--accent-hover);
+      border-bottom-color: var(--accent-hover);
+    }
+
+    h3 a:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 3px;
+      border-radius: 2px;
+      color: var(--accent);
+    }
+
+    .summary {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+      line-height: 1.6;
+      max-width: 62ch;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--faint);
+      font-size: 0.86rem;
+      line-height: 1.55;
+    }
+
+    /* Respect users who prefer reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sachin Seth</h1>
+      <p class="tagline">Data Platform Architect &amp; Analytics Product Builder</p>
+      <p class="bio">Data platform architect and analytics product builder known for deep work benchmarking Databricks and Snowflake compute and delivering high-performance data applications at scale. Builds full-stack analytics solutions — from billion-point time-series engines to portfolio optimization apps and real-time financial dashboards — blending Databricks, Snowflake, Rust, Arrow, and modern web technologies.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="sec-capitalone">
+        <h2 id="sec-capitalone">Capital One Software Engineering Blog</h2>
+
+        <article>
+          <div class="meta">
+            <span class="year">2026</span>
+          </div>
+          <h3><a href="https://www.capitalone.com/software/blog/scaling-agent-context-snowflake-knowledge-graphs/" target="_blank" rel="noopener noreferrer">Scaling Agent Context with Knowledge Graphs on Snowflake</a></h3>
+          <p class="summary">How knowledge graphs extend the working context available to AI agents beyond fixed dashboards and flat retrieval, implemented on Snowflake.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2026</span>
+          </div>
+          <h3><a href="https://www.capitalone.com/software/blog/databricks-benchmarks-classic-jobs-serverless-jobs-dbsql-comparison/" target="_blank" rel="noopener noreferrer">Jobs Classic vs. Jobs Serverless vs. DBSQL: Who Wins on TPC-DS?</a></h3>
+          <p class="summary">A data-driven analysis running the full TPC-DS suite (4,750+ queries) across three Databricks compute planes via Apache JMeter; serverless SQL warehouses (DBSQL) emerge as the overall winner — roughly 7x faster than any Jobs compute at equal or lower cost — while classic Jobs Compute wins within the Jobs family.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2026</span>
+          </div>
+          <h3><a href="https://www.capitalone.com/software/blog/databricks-genai-cost-supervisor-agent/" target="_blank" rel="noopener noreferrer">Building a GenAI Cost Supervisor Agent in Databricks</a></h3>
+          <p class="summary">Turning Databricks System Tables into a knowledge base for an AI agent answering GenAI cost questions; makes the case for Unity Catalog functions over text-to-SQL to eliminate injection surface.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2026</span>
+          </div>
+          <h3><a href="https://www.capitalone.com/software/blog/snowflake-cortex-code-cli/" target="_blank" rel="noopener noreferrer">Cortex Code CLI: A Hands-On Review of Snowflake's TPC-DS 10TB</a></h3>
+          <p class="summary">Hands-on evaluation of Snowflake's Cortex Code CLI across five test areas spanning 55 billion rows.</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="sec-plotly">
+        <h2 id="sec-plotly">Plotly on Databricks Series (2023–2024)</h2>
+
+        <article>
+          <div class="meta">
+            <span class="year">2023</span>
+            <span class="role">Lead author</span>
+          </div>
+          <h3><a href="https://medium.com/dbsql-sme-engineering/visualizing-a-billion-points-databricks-plotly-dash-and-the-plotly-resampler-45461bc3f466" target="_blank" rel="noopener noreferrer">Visualizing a Billion Points: Databricks SQL, Plotly Dash and the Plotly Resampler</a></h3>
+          <p class="summary">At-scale interactive Dash apps over large IoT time-series via the Databricks SQL connector, Plotly Resampler downsampling, Polars backend.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2023</span>
+            <span class="role">Contributor</span>
+          </div>
+          <h3><a href="https://medium.com/plotly/databricks-sdk-plotly-dash-the-easiest-way-to-get-jobs-done-70d44e1cd9c3" target="_blank" rel="noopener noreferrer">Databricks SDK + Plotly Dash — The Easiest Way to Get Jobs Done</a></h3>
+          <p class="summary">Dash as a front end for the Databricks SDK and Jobs API.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2023</span>
+            <span class="role">Lead author, Series Article #4</span>
+          </div>
+          <h3><a href="https://medium.com/plotly/building-plotly-dash-apps-on-a-lakehouse-with-databricks-sql-advanced-edition-4e1015593633" target="_blank" rel="noopener noreferrer">Building Plotly Dash Apps on a Lakehouse with Databricks SQL (Advanced Edition)</a></h3>
+          <p class="summary">Connecting Dash to Databricks via the SQL connector or SQLAlchemy ORM; streaming dashboards, DDL/object mapping, advanced visuals.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2023</span>
+            <span class="role">Contributor, Series Article #3</span>
+          </div>
+          <h3><a href="https://medium.com/plotly/molson-coors-streamlines-supply-planning-workflows-with-databricks-plotly-dash-d26de907142c" target="_blank" rel="noopener noreferrer">Molson Coors Streamlines Supply Planning Workflows with Databricks &amp; Plotly Dash</a></h3>
+          <p class="summary">Production customer data app using the SQLAlchemy engine and Dash AG Grid.</p>
+        </article>
+
+        <article>
+          <div class="meta">
+            <span class="year">2024</span>
+            <span class="role">Lead author</span>
+          </div>
+          <h3><a href="https://medium.com/plotly/amplify-your-organizations-custom-llm-strategy-using-databricks-with-plotly-part-1-6bfb8a86872b" target="_blank" rel="noopener noreferrer">Amplify Your Organization's Custom LLM Strategy Using Databricks with Plotly (Part 1)</a></h3>
+          <p class="summary">Full-stack Dash app that deploys Hugging Face / Databricks models to GPU serving endpoints.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Byline spans Capital One Software, Plotly, Virago Analytics, and Lakeside Analytics.</p>
+    </footer>
+  </div>
+</body>
+</html>
